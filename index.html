@@ -4,17 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script src="./js/bootstrap.min.js"></script>
     <title>The Dancing Goat Cafe</title>
   </head>
   <body>
-    <div class="container outdoorColor">
-      <nav class="site-header sticky-top py-1">
-        <div class="collapse navbar-collapse outdoorColor" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    <header class="navbar outdoorColor justify-content-around navbar-expand navbar-dark flex-column flex-md-row bd-navbar sticky-top">
+      <div class="container centerNav justify-content-around">
+        <div class="navbar-nav-scroll justify-content-around">
+          <ul class="navbar-nav bd-navbar-nav flex-row justify-content-around">
+            <li class="nav-item">
+              <a class="nav-link " href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Menu</a>
@@ -25,26 +26,38 @@
             <li class="nav-item">
               <a class="nav-link" href="contactUs.html">Contact Us</a>
             </li>
+            <li class="nav-item">
+              <a href="#" class="fa fa-facebook"></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="fa fa-instagram"></a>
+            </a>
           </ul>
         </div>
-      </nav>
-      <div class="row sticky-top logoColor1">
-        <div class="col-md-2" id="test">
-          <img src="./images/logo2.jpg" class="img-fluid rounded float-right" alt="Responsive image">
-        </div>
-        <div class="col-md-10">
-          <h1 class="display-4">
-            THE DANCING GOAT
-            <small class="text-muted">Coffee House</small>
-            <p class="lead">
-              Hull Daily Mail Food & Drink Awards 2018 Tearoom/Coffee Shop of the Year
-            </p>
-          </h1>
-        </div>
       </div>
+    </header>
+    <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-md-2 logoPad">
+          <img src="./images/logo.jpg" class="img-fluid rounded float-right" alt="Responsive image">
+      </div>
+      <div class="col-md-10 inside c1 justify-content-around">
+        <h1 class="display-4 c2">
+          THE DANCING GOAT
+          <small class="text-muted">Coffee House</small>
+        </h1>
+        <p class="lead c2">
+          Hull Daily Mail Food & Drink Awards 2018 Tearoom/Coffee Shop of the Year
+        </p>
+      </div>
+    </div>
+  </div>
+    <div class="container outdoorColor justify-content-around">
       <div class="row">
-        <div class="jumbotron col-md-6">
+        <div class="jumbotron col-md-3">
           <p class="lead">A family run business, serving coffee, cakes, breakfast and paninis. Open Tuesday to Sunday on Beverley Road.</p>
+        </div>
+        <div class="jumbotron col-md-6">
           <a href="#" class="btn btn-outline-secondary">Opening times</a>
         </div>
         <div class="jumbotron col-md-6" >
@@ -72,14 +85,5 @@
         </div>
       </div>
     </div>
-
-      <!--
-        The Dancing Goat Coffee House<br>554 Beverley Rd<br>Hull<br>HU6 7LG
-      -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
