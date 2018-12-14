@@ -4,19 +4,22 @@ body {
 .logoColor1 {
   background-color: #fbefcc; /*#F8EDD1;*/
 }
-.c2 {
-  opacity: 1;
-}
 .outdoorColor {
   background-color: #e0876a /*#eee;*/
 }
 .inside {
   background: url('../images/inside.jpg');
+  background-size: cover;
   background-color: #ffffff;
   opacity: .6;
 }
 .logoPad {
   padding-right: 0;
+  padding-left: 0;
+}
+.noMargin {
+  margin-right: 0;
+  margin-left: 0;
 }
 #map {
   height: 400px;  /* The height is 400 pixels */
@@ -42,4 +45,10 @@ body {
 }
 .centerNav {
   text-align: center;
+}
+.rText1 {
+  font-size: 5vw;
+}
+.rText2 {
+  font-size: 2.5vw;
 }
